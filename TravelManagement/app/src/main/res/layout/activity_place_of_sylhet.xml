@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="seu.ac.bd.travelmanagement.VisitToSylhet.PlaceOfSylhet">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iSustShahidMinar"
+            android:src="@drawable/sust_shahid_minar"
+            android:layout_width="match_parent"
+            android:layout_height="290dp" />
+
+        <TextView
+            android:id="@+id/tTitleShahidMinar"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:text="SUST Shahid Minar"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iMapSust"
+            android:src="@drawable/map_sust_shahid_minar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:text="SUST Shahid Minar"
+            android:id="@+id/tShahidMinarFootNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iLakkatura"
+            android:src="@drawable/lakkatura_tea_garden"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:text="Lakkatura Tea Garden"
+            android:id="@+id/tTitleLakkatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iLakkaturaMap"
+            android:src="@drawable/lakkatura_map"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:text="6/6 torongo, syed mungi, khasdobir Airport RD, Sylhet 3100, Bangladesh"
+            android:id="@+id/tFootNoteLakkatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iTilagor"
+            android:src="@drawable/tilagor"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:text="Tilagor Eco Park, Sylet"
+            android:id="@+id/tTitleTilagor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iTilagorMap"
+            android:src="@drawable/map_tilagor"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:text="Alurtol Road, Sylet, Bangladesh"
+            android:id="@+id/tFootNoteTilagor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/eCommentPlaceOfSylhet"
+            android:layout_marginTop="20dp"
+            android:hint="Post your comment here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bPostComment"
+            android:background="#009688"
+            android:text="Post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+            <ListView
+                android:id="@+id/lCommentList"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="500dp">
+
+            </ListView>
+    </LinearLayout>
+
+</ScrollView>

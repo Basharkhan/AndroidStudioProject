@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="seu.ac.bd.travelmanagement.VisitToSylhet.Sylhet">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iSylet"
+            android:src="@drawable/bichana_kandi_sylhet"
+            android:layout_width="match_parent"
+            android:layout_height="260dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/tTitleSylet"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:text="Add To Your Trip"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tCreateTrip"
+                android:textColor="#0D47A1"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:text="Create Trip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/iWhatToDoSylet"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="285dp"
+            android:src="@drawable/what_to_do"
+            />
+
+        <ImageView
+            android:id="@+id/iFoodSylhet"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:src="@drawable/syhellet_spice"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

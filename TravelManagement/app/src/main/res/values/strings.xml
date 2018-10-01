@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Travel Management</string>
+
+    <string-array name="district">
+        <item>Where do you want to go?</item>
+        <item>Chittagong</item>
+        <item>Sylhet</item>
+    </string-array>
+</resources>

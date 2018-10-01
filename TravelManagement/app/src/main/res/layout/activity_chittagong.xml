@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    tools:context="seu.ac.bd.travelmanagement.VisitToChittagong.Chittagong">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/iChittagong"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/foys_lake"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/tTitleChittagong"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:text="Add To Your Trip"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tCreateTrip"
+                android:textColor="#0D47A1"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:text="Create Trip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iWhatToDo"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="285dp"
+            android:src="@drawable/what_to_do"
+            />
+
+        <ImageView
+            android:id="@+id/iFood"
+            android:src="@drawable/food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>

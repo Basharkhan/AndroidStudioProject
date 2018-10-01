@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    tools:context="seu.ac.bd.travelmanagement.VisitToChittagong.PlaceOfChittagong">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iPatenga"
+            android:src="@drawable/patenga_seabeach_chittagong"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:id="@+id/tPatengaTitle"
+            android:textSize="20dp"
+            android:text="Patenga Sea Beach"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tPatengaDescription"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="Patenga is a sea beach located 14 kilometres south of the port city of chittagong, Bangladesh.It is near the mouth of the Karnaphuli River."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iPatengaMap"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/map_patenga"
+            android:layout_width="match_parent"
+            android:layout_height="280dp" />
+
+        <TextView
+            android:id="@+id/tPatengaFootNote"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:text="Patenga Sea Beach Chittagong, Bangladesh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iFoysLake"
+            android:src="@drawable/foys_lake_chittagong"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <TextView
+            android:id="@+id/tFoysTitle"
+            android:textSize="20dp"
+            android:text="Foy's Lake"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tFoysDescription"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="Foy's Lake is a man-made lake in Chittagong, Bangladesh.It was created in 1924 by constructing a dam across the stream that came down from the hills in the northern part of chittagong."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iMapFoysLake"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/map_foys_lake"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <ImageView
+            android:id="@+id/iBayezidBostami"
+            android:src="@drawable/bayazid_bostami_gate_rohan"
+            android:layout_width="match_parent"
+            android:layout_height="290dp" />
+
+        <TextView
+            android:id="@+id/tTitleBayezidBostami"
+            android:textSize="20dp"
+            android:text="Bayazid Bostami"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tBayezidDescription"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="The shrine of Bayazid Bostami is a shrine in Chittagong, Bangladesh.Bayazid Bostami was a famous persian Sufi born in Bostam, Iran.Its shrine area as a complex consists of a tomb surrounded by a brick structure along with an old mosque and a large pond."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iMapBayezidBostami"
+            android:src="@drawable/map_bayazid_bostami"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/tBayazidFootNote"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:text="Shrine of Bayazid Bostami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

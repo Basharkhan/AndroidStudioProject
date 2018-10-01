@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    tools:context="seu.ac.bd.travelmanagement.VisitToChittagong.FoodOfChittagong">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iFancyKitchen"
+            android:src="@drawable/fancy_kitchen"
+            android:layout_width="match_parent"
+            android:layout_height="280dp" />
+
+        <TextView
+            android:id="@+id/tFancyTitle"
+            android:textSize="20dp"
+            android:text="Fancy Kitchen"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tFancyDescription"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:text="Business Details\n
+Cuisine:
+Multi-Cuisine\n
+Parking:
+Street and parking lot parking\n
+Price Range:
+$\n
+Specialties:
+Serves lunch, dinner, drinks and coffee\n
+Services:
+Catering,
+Good For Groups,
+Good For Kids,
+Outdoor Seating
+Takes Reservations,
+Take Out,
+Waiter Service
+"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iMapFancy"
+            android:src="@drawable/map_fancy"
+            android:layout_width="match_parent"
+            android:layout_height="290dp" />
+
+        <TextView
+            android:id="@+id/tFancyFootNote"
+            android:text="Gate No: 14/15,East Gallery Market. M.A. Aziz Stadium, Kazir Dewri Chittagong 4203"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iCafeMilano"
+            android:src="@drawable/cafe_milano"
+            android:layout_width="match_parent"
+            android:layout_height="390dp" />
+
+        <TextView
+            android:id="@+id/tMilanoDescription"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:text="Café Milano is One of the Famous restaurant in Chittagong for it’s unique Continental items.\n\nChicken Ala Kiev Tk333\nBaked Chicken Parmesan Tk343\nTopped and Loaded Tk449\nGrill chicken COQ 373\nChicken Steak with Balsamic Sauce Tk338\nSpring Whole Chicken Tk555\nHabibi ButterFly Chicken Steak Tk 353\nChicken Filet Steak Tk353"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iMapMilano"
+            android:src="@drawable/map_cafe_milano"
+            android:layout_width="match_parent"
+            android:layout_height="280dp" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textSize="10dp"
+            android:text="Cafe Milano"
+            android:id="@+id/tMilanoFootNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

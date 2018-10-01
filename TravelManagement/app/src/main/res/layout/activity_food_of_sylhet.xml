@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    tools:context="seu.ac.bd.travelmanagement.VisitToSylhet.FoodOfSylhet">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iStreetBurger"
+            android:src="@drawable/street_burger"
+            android:layout_width="match_parent"
+            android:layout_height="290dp" />
+
+        <TextView
+            android:id="@+id/tTitleStreet"
+            android:text="Street Burger"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iStreetBurgerMap"
+            android:src="@drawable/map_street_burger"
+            android:layout_width="match_parent"
+            android:layout_height="290dp" />
+
+        <TextView
+            android:id="@+id/tStreetBurgerFootNote"
+            android:text="Shahi Eidgah, Sylet, Bangladesh"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/icpFiveStar"
+            android:src="@drawable/cp_five_star"
+            android:layout_width="match_parent"
+            android:layout_height="290dp" />
+
+        <TextView
+            android:id="@+id/tTitleCp"
+            android:text="Cp five star"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/iMapCp"
+            android:src="@drawable/map_cp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:id="@+id/tFootNoteCp"
+            android:text="Nurai-12/2B Sylet-Sunamganj Hwy, Sylet 3100, Bangladesh"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
